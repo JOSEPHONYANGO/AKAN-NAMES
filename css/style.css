@@ -13,3 +13,8 @@ h1{
     font-size: 36px;
     padding-top: 20px;
   }
+  .container{
+      line-height: 35px;
+      justify-content: center;
+      font-size: 25px;
+  }

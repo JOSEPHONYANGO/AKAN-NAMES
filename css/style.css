@@ -74,3 +74,9 @@ h1{
   margin: auto;
   color: white;
   }
+  .form{
+      display: flex;
+      justify-content: center;
+      margin-top: 180px;
+      background-color:blue;
+  }

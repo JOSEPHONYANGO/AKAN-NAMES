@@ -8,10 +8,29 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="content">
+  <section id="firstpart">
+    <header>
+        <nav>
+            <div class="logo-g">
+
+                <p class="logo-text"> AKAN NAMES
+                </p>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Register</a></li>
+                                        
+                </ul>
+            </div>
+
+     <div class="card">
         <div class="container">
-          <h1>The Akan name generator!</h1>
-          <p>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+          <h1>The Akan Names</h1>
+          <p>This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p> 
           <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
           <form class="myform" onsubmit="return getAkanName()">
             <label for="year-of-birth">
@@ -28,7 +47,7 @@
             </label>
             <br>
             <label for="gender">
-              <p>Select your gender: </p>
+              <p>Your gender: </p>
               Male
               <input id="male-input" type="radio" name="gender" value="male" required>
               Female

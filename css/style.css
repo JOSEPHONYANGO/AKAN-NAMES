@@ -3,8 +3,59 @@ body{
     color: white;
     font-size: 17px;
   }
+  .links {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: -70px;
+}
+.links ul {
+        display: inline;
+        text-decoration: none;
+}
+h1{
+  font-size: 36px;
+}
+.links li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.6vw;
+    text-transform: capitalize;
+    margin: 0 2%;
+    text-decoration: none;
+    color:blue;
+    padding: 30px;
+    margin-top: -130px;
+}
+.links ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    margin: 0 2%;
+    text-decoration: none;
+    color:white;
+}
+.links ul li a{
+    color:white;
+    text-decoration: none;
+}
   
-  h1{
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color:darkblue;
+  font-size: large;
+  margin-top: 100px;
+  }
+
+  
+  /* h1{
     font-size: 36px;
     padding-top: 20px;
   }
@@ -54,7 +105,7 @@ body{
   .content{
     background-color:orange;
     /* height: 600px; */
-    margin-left: 20%;
+    /* margin-left: 20%;
     margin-right: 20%;
     margin-top: 10px;
     margin-bottom: auto;
@@ -83,4 +134,4 @@ body{
   a:hover{
     color: #006B3F;
   }
-  
+   */ 
